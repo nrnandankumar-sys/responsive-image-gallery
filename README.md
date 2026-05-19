@@ -76,31 +76,31 @@ script.js
 
 Functionalities
 
-Image Gallery
+->Image Gallery
 
-Displays images in a responsive grid layout.
+->Displays images in a responsive grid layout.
 
-Lightbox View
+->Lightbox View
 
-Opens selected image in fullscreen mode.
+->Opens selected image in fullscreen mode.
 
-Navigation Buttons
+->Navigation Buttons
 
-Users can move between images using Previous and Next buttons.
+->Users can move between images using Previous and Next buttons.
 
-Hover Effects
+->Hover Effects
 
-Smooth zoom and brightness effects on image hover.
+->Smooth zoom and brightness effects on image hover.
 
-Image Filters
+->Image Filters
 
-Filter images by categories such as:
+->Filter images by categories such as:
 
 - Nature
 - Animals
 - City
 
-Zoom Functionality
+->Zoom Functionality
 
 Users can zoom in and zoom out images inside the lightbox.
 
