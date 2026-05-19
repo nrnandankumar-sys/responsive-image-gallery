@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IMAGE GALLERY</h1>
+    <div class="filters">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('city')">City</button>
+        <button onclick="filterImages('animals')">Animals</button>
+        <button onclick="filterImages('birds')">Birds</button>
+    </div>
+    <div class="gallery">
+        <div class="image_box">
+            <img src="nature1.jpg" alt="Nature" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="nature2.jpg" alt="Nature" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="parrot.jpg" alt="birds" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="peacock.jpg" alt="birds" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="lion.jpg" alt="animals" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="lord.jpg" alt="city" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="army.jpg" alt="city" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="boating.jpg" alt="city" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="butterfly.jpg" alt="birds" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="flowers.jpg" alt="nature" onclick="openlight_box(this.src)">
+        </div>
+        <div class="image_box">
+            <img src="drop.jpg" alt="nature" onclick="openlight_box(this.src)">
+        </div>
+    </div>
+    <div id="lightbox" >
+        <span class="close" onclick="closelight_box()">X</span>
+        <button class="prev">❮</button>
+        <img id="lightbox_img">
+        <button class="next">❯</button>
+        <button onclick="zoomIn()" style="position: absolute; top:75%; left:40%; background-color: aqua; color: brown; width: fit-content; font-size: 25px;">+</button>
+        <button onclick="zoomOut()" style="position: absolute; top:75%; left:58%; background-color: aqua; color: brown; width: fit-content; font-size: 25px;">−</button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
